@@ -1,0 +1,19 @@
+#main {
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+#image {
+  max-width: 260px;
+}

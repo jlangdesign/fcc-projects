@@ -1,5 +1,5 @@
 # My freeCodeCamp Projects
-Repo to keep track of my progress and projects in freeCodeCamp.
+Repo to keep track of my progress and projects in freeCodeCamp. I'll revisit older projects to improve them after acquiring more skills from later lessons.
 
 1. **Responsive Web Design**
     1. Tribute Page
@@ -10,7 +10,7 @@ Repo to keep track of my progress and projects in freeCodeCamp.
 2. **JavaScript Algorithms and Data Structures**
     1. Palindrome Checker
     2. Roman Numeral Converter
-    3. Caesars Cipher
+    3. Caesar's Cipher
     4. Telephone Number Validator
     5. Cash Register
 3. **Front-end Libraries**

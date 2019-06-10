@@ -1,0 +1,81 @@
+<head>
+  <title>Survey Form</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+  <main>
+    <h1 id="title">Pokemon of the Day</h1>
+    <p id="description">Which Pokemon should be the Pokemon of the Day? Tell us here!</p>
+    
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:<br>
+        <input id="name" type="text" placeholder="Your name" required>
+      </label>
+      <br>
+      
+      <label id="email-label" for="email">Email:<br>
+        <input id="email" type="email" placeholder="Your email" required>
+      </label>
+      <br>
+      
+      <label id="number-label" for="number">Age:<br>
+        <input id="number" type="number" min="1" max="130" placeholder="Your age" required>
+      </label>
+      <br>
+      
+      <label id="todays-pokemon" for="todays-pokemon">Choose a Pokemon to be Pokemon of the Day:<br>
+        <select id="dropdown" name="todays-pokemon">
+          <option disabled value>Choose a Pokemon</option>
+          <option value="bulbasaur">Bulbasaur</option>
+          <option value="pikachu">Pikachu</option>
+          <option value="wooper">Wooper</option>
+          <option value="bidoof">Bidoof</option>
+          <option value="ditto">Ditto</option>
+        </select>
+      </label>
+      <br>
+      
+      <label id="own-label">Do you own one or more of that Pokemon?<br>
+        <label for="yes-no">
+          <input id="yes" name="yes-no" type="radio" value="1">Yes
+        </label>
+        <br>
+        <label for="no">
+          <input id="no" name="yes-no" type="radio" value="2">No
+        </label>
+      <br>
+    </label>
+       
+      <label id="tmr-label">Vote for the Pokemon you'd like to see in tomorrow's survey:<br>
+        <label for="voltorb">
+          <input id="voltorb" name="tmr" type="checkbox" value="1">Voltorb
+        </label>
+        <br>
+        <label for="geodude">
+          <input id="geodude" name="tmr" type="checkbox" value="2">Geodude
+        </label>
+        <br>
+        <label for="omastar">
+          <input id="omastar" name="tmr" type="checkbox" value="3">Omastar
+        </label>
+        <br>
+        <label for="weepinbell">
+          <input id="weepinbell" name="tmr" type="checkbox" value="4">Weepinbell
+        </label>
+        <br>
+        <label for="zapdos">
+          <input id="zapdos" name="tmr" type="checkbox" value="5">Zapdos
+        </label>
+      </label>
+      <br>
+      
+      <label id="comments-label">Add any comments and/or suggestions here:</label>
+      <br>
+      <textarea id="comments" name="comments" placeholder="Type your comments and/or suggestions here"></textarea>
+      <br>
+      
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </main>
+</body>
